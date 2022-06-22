@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.caja1{
+    background-color: rgb(255, 227, 255);
+    height: 5rem;
+}
+.caja2{
+    background-color: rgb(188, 203, 255);
+    height: 3rem;
+}
+.caja3{
+    background-color: rgb(168, 230, 255);
+    height: 20rem;
+}
+.caja4{ 
+    background-color: rgb(174, 252, 252);
+    height: 5rem;
+}
+.caja5{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 227, 255);
+    height: 25rem;
+  }
+.caja6{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(168, 230, 255);
+    height: 25rem;
+    margin-left: 10px;
+    }
+.alturaBlanco{
+    background-color: white;
+    height: 3rem;
+}
+.caja7{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(188, 203, 255);
+    height: 25rem;
+    margin-left: 10px;
+}
+.caja8{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(168, 230, 255);
+    height: 25rem;
+    margin-left: 10px;
+}
+.caja9{ 
+    display: flex;
+    justify-content: center;
+    background-color: rgb(174, 252, 252);
+    height: 25rem;
+    margin-left: 10px;
+}
+.division{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+.caja10{
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(168, 168, 168);
+}
+.interlineado{
+    background-color: white;
+    height: 10px;
+}
+ /* Comienzo consulta de medios */
+@media (max-width: 576px) {
+    .caja6 {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .caja7 .caja8 .caja9 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+  }
